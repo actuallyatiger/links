@@ -36,7 +36,7 @@ export default function Home() {
         </div>
       </main>
       <footer className="flex justify-center items-center h-10 max-sm:bg-white max-sm:bg-opacity-20 max-sm:backdrop-blur-lg">
-        &copy; Tiger Taylor 2024
+        &copy; Tiger Taylor {new Date().getFullYear()}
       </footer>
     </>
   );

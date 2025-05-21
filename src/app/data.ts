@@ -10,6 +10,8 @@ import {
   SiProtonmail,
 } from "react-icons/si";
 
+import { FaPhone } from "react-icons/fa";
+
 const tilesets: TileSet[] = [
   {
     title: "Socials",
@@ -58,6 +60,11 @@ const tilesets: TileSet[] = [
         name: "Email",
         url: "mailto:tiger@tigertaylor.xyz",
         icon: SiProtonmail,
+      },
+      {
+        name: "Phone",
+        url: "tel:+44 7496 588340",
+        icon: FaPhone,
       },
     ],
   },
