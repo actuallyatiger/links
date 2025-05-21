@@ -1,14 +1,14 @@
 import { TileSet } from "@/app/lib/declarations";
 import {
-  siInstagram,
-  siSnapchat,
-  siDiscord,
-  siThreads,
-  siFacebook,
-  siLinkedin,
-  siGithub,
-  siProtonmail,
-} from "simple-icons";
+  SiInstagram,
+  SiSnapchat,
+  SiDiscord,
+  SiThreads,
+  SiFacebook,
+  SiLinkedin,
+  SiGithub,
+  SiProtonmail,
+} from "react-icons/si";
 
 const tilesets: TileSet[] = [
   {
@@ -17,27 +17,27 @@ const tilesets: TileSet[] = [
       {
         name: "Instagram",
         url: "https://instagram.com/actuallyatiger",
-        icon: siInstagram.svg,
+        icon: SiInstagram,
       },
       {
         name: "Snapchat",
         url: "https://snapchat.com/add/possiblyatiger",
-        icon: siSnapchat.svg,
+        icon: SiSnapchat,
       },
       {
         name: "Discord",
         url: "https://discord.gg/actuallyatiger",
-        icon: siDiscord.svg,
+        icon: SiDiscord,
       },
       {
         name: "Threads",
         url: "https://threads.net/@actuallyatiger",
-        icon: siThreads.svg,
+        icon: SiThreads,
       },
       {
         name: "Facebook",
         url: "https://facebook.com/possiblyatiger",
-        icon: siFacebook.svg,
+        icon: SiFacebook,
       },
     ],
   },
@@ -47,17 +47,17 @@ const tilesets: TileSet[] = [
       {
         name: "LinkedIn",
         url: "https://linkedin.com/in/tiger-taylor",
-        icon: siLinkedin.svg,
+        icon: SiLinkedin,
       },
       {
         name: "GitHub",
         url: "https://github.com/yourusername",
-        icon: siGithub.svg,
+        icon: SiGithub,
       },
       {
         name: "Email",
         url: "mailto:tiger@tigertaylor.xyz",
-        icon: siProtonmail.svg,
+        icon: SiProtonmail,
       },
     ],
   },
